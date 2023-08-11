@@ -1,0 +1,41 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    height: 150px;
+    width: 150px;
+    align-items: center;
+}
+h1{
+   text-align: center;
+   font-family:cursive;
+}
+.photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.photos a{
+    margin: 20px;
+}
+.photos img{
+   height: 10%;
+   width: 100%;
+   transition: transform 0.3s ease;
+}
+.photos a:hover img {
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+.nameofrecipes{
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    justify-content: center;
+}
+.nameofrecipes p{
+    font-family: cursive;
+}

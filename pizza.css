@@ -1,0 +1,45 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    height: 150px;
+    width: 150px;
+    align-items: center;
+}
+h1{
+   text-align: center;
+   font-family:cursive;
+}
+/* .photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.photos a{
+    display:flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.photos img{
+   height: 50%;
+   width: 20%;
+   transition: transform 0.3s ease;
+}
+.photos a:hover img {
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+.nameofrecipes{
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    justify-content: center;
+}
+.nameofrecipes p{
+    font-family: cursive;
+}
